@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 HELP.md
 .gradle
 build/
@@ -35,3 +36,13 @@ out/
 
 ### VS Code ###
 .vscode/
+=======
+### Example user template template
+### Example user template
+
+# IntelliJ project files
+.idea
+*.iml
+out
+gen
+>>>>>>> branch 'main' of https://github.com/seeTheSunya/jeongjunseo.git
