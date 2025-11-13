@@ -9,7 +9,7 @@ import org.springframework.stereotype.Service;
 public class EmailService {
 	
     private final JavaMailSender mailSender;
-    private final String fromEmail="jjs23574@chungbuk.ac.kr";
+    private final String fromEmail="jjs23574@chungbuk.ac.kr"; //보내는사람 메일=관리자메일
 
     public EmailService(JavaMailSender mailSender) {
         this.mailSender = mailSender;
