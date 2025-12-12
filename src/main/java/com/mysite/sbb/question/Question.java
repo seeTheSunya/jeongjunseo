@@ -17,10 +17,20 @@ import jakarta.persistence.OneToMany;
 import lombok.Getter;
 import lombok.Setter;
 
+import java.util.Set;
+import com.mysite.sbb.user.SiteUser;
+import jakarta.persistence.ManyToMany;
+
+
+
 @Getter
 @Setter
 @Entity
 public class Question {
+	
+	@ManyToMany
+    Set<SiteUser> voter;
+	
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
